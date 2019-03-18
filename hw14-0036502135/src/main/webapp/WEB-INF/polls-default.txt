@@ -1,0 +1,2 @@
+Voting for favourite band:	Of the following bands, which is your favorite one? Click on link to vote!	bands.txt
+Voting for favourite operating system:	Of the following operating system, which one do you use? Click on link to vote!	operating-systems.txt
