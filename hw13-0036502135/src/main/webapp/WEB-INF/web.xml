@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1"
+  metadata-complete="true">	<!-- dali samo gledati ode odznacenje mappinge za servlete -->
+
+  <display-name>Moja prva aplikacija</display-name>
+  <description>
+     Prva aplikacija
+  </description>
+
+<!-- dodaje mapping ime-servletClass, isto kao u ime-workersClass -->
+  <servlet>
+  <servlet-name>colorSetter</servlet-name>
+  	<servlet-class>hr.fer.zemris.java.servlets.ColorSetter</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>trigonometricServlet</servlet-name>
+  	<servlet-class>hr.fer.zemris.java.servlets.TrigonometricServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>imageReporter</servlet-name>
+  	<servlet-class>hr.fer.zemris.java.servlets.ImageReporter</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>powersServlet</servlet-name>
+  	<servlet-class>hr.fer.zemris.java.servlets.PowersServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>glasanjeServlet</servlet-name>
+  	<servlet-class>hr.fer.zemris.java.servlets.GlasanjeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>glasanjeGlasajServlet</servlet-name>
+  	<servlet-class>hr.fer.zemris.java.servlets.GlasanjeGlasajServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>glasanjeRezultatiServlet</servlet-name>
+  	<servlet-class>hr.fer.zemris.java.servlets.GlasanjeRezultatiServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>glasanjeGrafikaServlet</servlet-name>
+  	<servlet-class>hr.fer.zemris.java.servlets.GlasanjeGrafikaServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>glasanjeXLSServlet</servlet-name>
+  	<servlet-class>hr.fer.zemris.java.servlets.GlasanjeXLSServlet</servlet-class>
+  </servlet>
+  
+  <!-- dodaje mapping imeServleta u mapi ime-servletClass  prema urlovima-->
+  <servlet-mapping>
+  <servlet-name>colorSetter</servlet-name>
+  	<url-pattern>/setcolor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>trigonometricServlet</servlet-name>
+  	<url-pattern>/trigonometric</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>imageReporter</servlet-name>
+  	<url-pattern>/reportImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>powersServlet</servlet-name>
+  	<url-pattern>/powers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>glasanjeServlet</servlet-name>
+  	<url-pattern>/glasanje</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>glasanjeGlasajServlet</servlet-name>
+  	<url-pattern>/glasanje-glasaj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>glasanjeRezultatiServlet</servlet-name>
+  	<url-pattern>/glasanje-rezultati</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>glasanjeGrafikaServlet</servlet-name>
+  	<url-pattern>/glasanje-grafika</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>glasanjeXLSServlet</servlet-name>
+  	<url-pattern>/glasanje-xls</url-pattern>
+  </servlet-mapping>
+  
+  <listener>
+  	<listener-class>hr.fer.zemris.java.servlets.TimeStarter</listener-class>
+  </listener>
+</web-app>
