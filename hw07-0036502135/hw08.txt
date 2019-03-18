@@ -1,4 +1,4 @@
-8. domaća zadaća
+﻿8. domaća zadać
 -----------------------------------------------------------------------------------------------------
 U ovoj zadaći dorađujemo ljusku koju ste pripremili za prethodnu domaću zadaću. Nastavite raditi u istom projektu u kojem ste radili prošlu domaću zadaću, te nastavite koristiti pakete kakve ste tamo imali. Kad ste gotovi, ponovno ćete zapakirati kompletnu domaću zadaću u jednu ZIP arhivu koja će time sadržavati uniju svega što ste napravili za prošlu i ovu novu domaću zadaću).
 -----------------------------------------------------------------------------------------------------
