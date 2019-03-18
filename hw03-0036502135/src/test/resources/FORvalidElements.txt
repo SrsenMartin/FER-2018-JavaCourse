@@ -1,0 +1,13 @@
+This is sample text.
+{$ FOR str_02 "1" -10.2 1 $}
+ This is {$= i $}-th time this message is generated.
+{$END$}
+{$FOR k2_pz 0 -10 2 $}
+ sin({$=i$}^2) = {$= i i * @sin "0.000" @decfmt $}
+{$END$}
+{$ FOR i -1 10 1 $}
+{$END$}
+{$ FOR sco_re "-1"10 "1" $}
+{$END$}
+{$ FOR year 1 last_year $}
+{$END$}

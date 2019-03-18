@@ -1,0 +1,8 @@
+This is \\ \\\\ { } {{ sample text.
+{$ FOR gf_2g_ -1 "10" -1.12 $}
+ This is {$= i $}-th time this message is generated.
+{$END$}
+{$FOR i 32.1 10 2 $}
+ sin(\{$=i$}^2) = {$= i i * - + / ^ @s_2p @k__23 @sin "\"\"\" \\  \n \t \r \\\\" @decfmt $}
+{$END$}
+\{$ FOR { @ss i fds 1032sad 1 $} is for as text.
