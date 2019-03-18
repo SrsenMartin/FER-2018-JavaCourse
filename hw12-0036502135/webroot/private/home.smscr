@@ -1,0 +1,40 @@
+{$= "text/html" @setMimeType $}
+<!DOCTYPE html>
+ <html>
+   <head>
+      <style>
+           body {background-color: #{$= "background" "7F7F7F" @tparamGet $};}
+      </style>
+   </head>
+   <body>
+       <a href="/scripts/osnovni.smscr">osnovni.smscr</a>
+       &nbsp;
+       <a href="/scripts/brojPoziva.smscr">brojPoziva.smscr</a>
+       &nbsp;
+       <a href="/scripts/fibonaccih.smscr">fibonaccih.smscr</a>
+       &nbsp;
+       <a href="/hello">HelloWorker</a>
+       &nbsp;
+       <a href="/cw">CircleWorker</a>
+       
+       <form action="/calc" method="GET" align="center">
+  			a: <input type="number" name="a"><br>
+ 			b: <input type="number" name="b"><br>
+ 			<input type="submit" value="submit">
+		</form>
+		<form action="/setbgcolor" method="GET" align="left">
+			<select name="bgcolor">
+ 	 			<option value="FF0000">RED</option>
+ 				<option value="008B00">GREEN</option>
+  				<option value="B2DFEE">LIGHT BLUE</option>
+  				<option value="62A8E1">BLUE</option>
+  				<option value="FFFF00">YELLOW</option>
+  				<option value="FFB733">ORANGE</option>
+  				<option value="FFFFFF">WHITE</option>
+  				<option value="FFE4E1">PINK</option>
+			</select>
+			<input type="submit" value="submit">
+			<p align="left">{$= "message" "" @pparamGet "message" @pparamDel $}</p>
+		</form>
+   </body>
+ </html>
