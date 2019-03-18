@@ -1,0 +1,63 @@
+bear.jpg
+Grizzly bear
+animal, bears, hibernation, danger, grizzly, mammal
+camel.jpg
+Camel
+animal, desert, travel, mammal
+cheetah.jpg
+Cheetah
+animal, cats, speed, agility, acceleration, mammal, predator
+crocodile.jpg
+Crocodile
+animal, reptile, predator, ambush, lake, river
+giraffe.jpg
+Giraffe
+animal, height, mammal, neck
+hammerheadShark.jpg
+Hammerhead shark
+animal, sharks, predator, hammer, sea, fish
+hippo.jpg
+Hippo
+animal, mammal, lake, river, aggressive
+horse.jpg
+Horse
+speed, travel, animal, mammal
+jellyfish.jpg
+Jellyfish
+animal, sea, tentacles
+kangaroo.jpg
+Kangaroo
+animal, quiver, mammal, Australia
+killerWhale.jpg
+Killer whale
+animal, whales, mammal, predator, sea
+koala.jpg
+Koala
+animal, quiver, mammal, Australia
+monkey.jpg
+Monkey
+animal, mammal, intelligent, trees
+scorpion.jpg
+Scorpion
+animal, arachnid, predator, venom, desert
+stonefish.jpg
+Stonefish
+animal, fish, venom, sea
+swordfish.jpg
+Swordfish
+animal, fish, sword, sea
+tiger.jpg
+Tiger
+animal, mammal, tigers, cats, predator
+viper.jpg
+Viper
+animal, reptile, snakes, venom
+whale.jpg
+Whale
+animal, whales, mammal, sea, huge
+whiteShark.jpg
+Great white shark
+animal, sharks, predator, sea, fish, jaws
+whiteTiger.jpg
+White tiger
+animal, mammal, tigers, cats, predator
